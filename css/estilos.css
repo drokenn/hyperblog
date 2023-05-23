@@ -1,8 +1,12 @@
 body
 {
+    background: rgb(8, 21, 106);
     color: black;
     text-align: center;
     font-family: "Console";
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
 } 
 
 #cabecera
@@ -14,6 +18,12 @@ body
     margin: 0;
     padding: o.5em;
 
+}
+
+#cabecera #logo
+{
+    width: 20px;
+    vertical-align: middle;
 }
 
 #cabecera #tagline
@@ -40,5 +50,6 @@ body
 
 #post
 {
+    background: white;
     padding: 1em;
 }
